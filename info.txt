@@ -1,0 +1,9 @@
+﻿Tài khoản SQL Server: 
+	Username: sa
+	Password: 123
+Tài khoản chỉ cấp Quyền Execute
+	Username: QUIZPRO
+	Password: 123
+Tài khoản cấp toàn quyền:
+	Username: dbms
+	Password: 123

@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C6B817A7-A573-4745-91EA-126200B2BFD5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuizPro_v._1._0</RootNamespace>
+    <AssemblyName>QuizPro v.1.0</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>package_edutainment.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v17.1" />
+    <Reference Include="DevExpress.Data.v17.1" />
+    <Reference Include="DevExpress.Utils.v17.1" />
+    <Reference Include="DevExpress.Sparkline.v17.1.Core" />
+    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.1" />
+    <Reference Include="DevExpress.Printing.v17.1.Core" />
+    <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>G:\phanmem\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="QuizPro_MyUC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=153a93cd5c68433b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\QuizPro_MyUC\QuizPro_MyUC\bin\Debug\QuizPro_MyUC.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\AnswerObj.cs" />
+    <Compile Include="BLL\BDLoginSystem.cs" />
+    <Compile Include="BLL\BDStudentManager.cs" />
+    <Compile Include="BLL\BDAdminManager.cs" />
+    <Compile Include="BLL\BDTeacherManager.cs" />
+    <Compile Include="BLL\Encrypter.cs" />
+    <Compile Include="BLL\QuestionObj.cs" />
+    <Compile Include="BLL\UpdateUserStatus.cs" />
+    <Compile Include="frmUserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserInfo.Designer.cs">
+      <DependentUpon>frmUserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\DAL.cs" />
+    <Compile Include="Presentation\Admin Manager\frmAdminEditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Admin Manager\frmAdminEditUser.Designer.cs">
+      <DependentUpon>frmAdminEditUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Admin Manager\frmAdminMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Admin Manager\frmAdminMain.Designer.cs">
+      <DependentUpon>frmAdminMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Admin Manager\frmImportUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Admin Manager\frmImportUser.Designer.cs">
+      <DependentUpon>frmImportUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Admin Manager\frmSelectSubjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Admin Manager\frmSelectSubjects.Designer.cs">
+      <DependentUpon>frmSelectSubjects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Login Manager\FrmSettingSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Login Manager\FrmSettingSystem.Designer.cs">
+      <DependentUpon>FrmSettingSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Student Manager\frmDoExam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Student Manager\frmDoExam.Designer.cs">
+      <DependentUpon>frmDoExam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Student Manager\frmViewHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Student Manager\frmViewHistory.Designer.cs">
+      <DependentUpon>frmViewHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Student Manager\frmViewExam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Student Manager\frmViewExam.Designer.cs">
+      <DependentUpon>frmViewExam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Student Manager\frmStudentMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Student Manager\frmStudentMain.Designer.cs">
+      <DependentUpon>frmStudentMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Login Manager\Frm_LoginSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Login Manager\Frm_LoginSystem.Designer.cs">
+      <DependentUpon>Frm_LoginSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Teacher Manager\frmClassExam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Teacher Manager\frmClassExam.Designer.cs">
+      <DependentUpon>frmClassExam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Teacher Manager\frmEditExam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Teacher Manager\frmEditExam.Designer.cs">
+      <DependentUpon>frmEditExam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Teacher Manager\frmImportQues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Teacher Manager\frmImportQues.Designer.cs">
+      <DependentUpon>frmImportQues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Teacher Manager\frmListQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Teacher Manager\frmListQuestion.Designer.cs">
+      <DependentUpon>frmListQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Teacher Manager\frmQuestionDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Teacher Manager\frmQuestionDetail.Designer.cs">
+      <DependentUpon>frmQuestionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Teacher Manager\frmTeacher_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Teacher Manager\frmTeacher_Main.Designer.cs">
+      <DependentUpon>frmTeacher_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmUserInfo.resx">
+      <DependentUpon>frmUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Admin Manager\frmAdminEditUser.resx">
+      <DependentUpon>frmAdminEditUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Admin Manager\frmAdminMain.resx">
+      <DependentUpon>frmAdminMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Admin Manager\frmImportUser.resx">
+      <DependentUpon>frmImportUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Admin Manager\frmSelectSubjects.resx">
+      <DependentUpon>frmSelectSubjects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Login Manager\FrmSettingSystem.resx">
+      <DependentUpon>FrmSettingSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Student Manager\frmDoExam.resx">
+      <DependentUpon>frmDoExam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Student Manager\frmViewExam.resx">
+      <DependentUpon>frmViewExam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Student Manager\frmStudentMain.resx">
+      <DependentUpon>frmStudentMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Login Manager\Frm_LoginSystem.resx">
+      <DependentUpon>Frm_LoginSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Teacher Manager\frmClassExam.resx">
+      <DependentUpon>frmClassExam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Teacher Manager\frmEditExam.resx">
+      <DependentUpon>frmEditExam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Teacher Manager\frmImportQues.resx">
+      <DependentUpon>frmImportQues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Teacher Manager\frmListQuestion.resx">
+      <DependentUpon>frmListQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Teacher Manager\frmQuestionDetail.resx">
+      <DependentUpon>frmQuestionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Teacher Manager\frmTeacher_Main.resx">
+      <DependentUpon>frmTeacher_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Presentation\Student Manager\frmViewHistory.resx">
+      <DependentUpon>frmViewHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="package_edutainment.ico" />
+    <None Include="Resources\algorithms11.png" />
+    <Content Include="Resources\background-with-wavy-lines.jpg" />
+    <Content Include="Resources\background-with-wavy-lines1.jpg" />
+    <None Include="Resources\excel.png" />
+    <None Include="Resources\delete-user-icon-hi.png" />
+    <None Include="Resources\eyeOpen.png" />
+    <None Include="Resources\eyeClose.png" />
+    <Content Include="Resources\false.png" />
+    <None Include="Resources\gifLoad.gif" />
+    <None Include="Resources\ic_back_form.png" />
+    <None Include="Resources\ic_button_2.png" />
+    <None Include="Resources\ic_button_21.png" />
+    <None Include="Resources\ic_end_test.png" />
+    <Content Include="Resources\images.jpg" />
+    <None Include="Resources\oops11.jpg" />
+    <Content Include="Resources\package_edutainment.ico" />
+    <None Include="Resources\PersonalInfo-PlannerIconss1.png" />
+    <None Include="Resources\reading1.png" />
+    <None Include="Resources\sql1.jpg" />
+    <Content Include="Resources\tools.png" />
+    <Content Include="Resources\true.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

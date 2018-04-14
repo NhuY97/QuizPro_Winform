@@ -1,0 +1,66 @@
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\QuizPro v.1.0.exe
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\QuizPro v.1.0.pdb
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\DevExpress.BonusSkins.v17.1.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\DevExpress.Data.v17.1.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\DevExpress.Printing.v17.1.Core.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\DevExpress.Sparkline.v17.1.Core.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\DevExpress.Utils.v17.1.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\DevExpress.XtraBars.v17.1.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\DevExpress.XtraEditors.v17.1.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\QuizPro_MyUC.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\DevExpress.Pdf.v17.1.Core.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\DevExpress.Data.v17.1.xml
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\DevExpress.Utils.v17.1.xml
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\DevExpress.Sparkline.v17.1.Core.xml
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\DevExpress.XtraBars.v17.1.xml
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\DevExpress.XtraEditors.v17.1.xml
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\DevExpress.Printing.v17.1.Core.xml
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\QuizPro_MyUC.pdb
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\DevExpress.Pdf.v17.1.Core.xml
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\de\DevExpress.Data.v17.1.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\es\DevExpress.Data.v17.1.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\ja\DevExpress.Data.v17.1.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\ru\DevExpress.Data.v17.1.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\de\DevExpress.Utils.v17.1.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\es\DevExpress.Utils.v17.1.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\ja\DevExpress.Utils.v17.1.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\ru\DevExpress.Utils.v17.1.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\de\DevExpress.XtraBars.v17.1.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\es\DevExpress.XtraBars.v17.1.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\ja\DevExpress.XtraBars.v17.1.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\ru\DevExpress.XtraBars.v17.1.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\de\DevExpress.XtraEditors.v17.1.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\es\DevExpress.XtraEditors.v17.1.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\ja\DevExpress.XtraEditors.v17.1.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\ru\DevExpress.XtraEditors.v17.1.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\de\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\es\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\ja\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\ru\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\de\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\es\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\bin\Release\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\obj\Release\QuizPro v.1.0.csprojResolveAssemblyReference.cache
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\obj\Release\QuizPro v.1.0.csproj.ResolveComReference.cache
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\obj\Release\QuizPro_v._1._0.Mahoa.resources
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\obj\Release\QuizPro_v._1._0.View.Admin_Manager.frmAdminEditUser.resources
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\obj\Release\QuizPro_v._1._0.frmAdminMain.resources
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\obj\Release\QuizPro_v._1._0.Presentation.Admin_Manager.frmImportUser.resources
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\obj\Release\QuizPro_v._1._0.FrmSettingSystem.resources
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\obj\Release\QuizPro_v._1._0.View.Student_Manager.frmDoExam.resources
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\obj\Release\QuizPro_v._1._0.frmViewExam.resources
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\obj\Release\QuizPro_v._1._0.frmStudentMain.resources
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\obj\Release\QuizPro_v._1._0.Frm_LoginSystem.resources
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\obj\Release\QuizPro_v._1._0.Presentation.Teacher_Manager.frmQuestionDetail.resources
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\obj\Release\QuizPro_v._1._0.Presentation.Teacher_Manager.frmTeacher_Main.resources
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\obj\Release\QuizPro_v._1._0.Properties.Resources.resources
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\obj\Release\QuizPro_v._1._0.View.Student_Manager.frmViewHistory.resources
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\obj\Release\QuizPro v.1.0.csproj.GenerateResource.Cache
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\obj\Release\QuizPro v.1.0.exe.licenses
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\obj\Release\QuizPro v.1.0.exe
+D:\Project\DBMS\Project\QuizPro v.1.0\QuizPro v.1.0\obj\Release\QuizPro v.1.0.pdb
